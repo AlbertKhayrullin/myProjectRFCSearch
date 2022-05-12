@@ -1,0 +1,98 @@
+### register tasks 2
+POST http://localhost:9999/tasks.register
+Authorization: Bearer {{token2}}
+Content-Type: application/json
+
+{
+  "phrase": "Multicast VPN"
+}
+
+### 3
+POST http://localhost:9999/tasks.register
+Authorization: Bearer {{token3}}
+Content-Type: application/json
+
+{
+  "phrase": "Terminology"
+}
+
+### 4
+POST http://localhost:9999/tasks.register
+Authorization: Bearer {{token4}}
+Content-Type: application/json
+
+{
+  "phrase": "internet"
+}
+
+### 5
+POST http://localhost:9999/tasks.register
+Authorization: Bearer {{token5}}
+Content-Type: application/json
+
+{
+  "phrase": "sequence"
+}
+
+### 6
+POST http://localhost:9999/tasks.register
+Authorization: Bearer {{token6}}
+Content-Type: application/json
+
+{
+  "phrase": "DELETED"
+}
+
+### 7
+POST http://localhost:9999/tasks.register
+Authorization: Bearer {{token7}}
+Content-Type: application/json
+
+{
+  "phrase": "UIDPLUS"
+}
+
+### 8
+POST http://localhost:9999/tasks.register
+Authorization: Bearer {{token8}}
+Content-Type: application/json
+
+{
+  "phrase": "IETF Documents"
+}
+
+### 9
+POST http://localhost:9999/tasks.register
+Authorization: Bearer {{token9}}
+Content-Type: application/json
+
+{
+  "phrase": "Standards Track"
+}
+
+### 10
+POST http://localhost:9999/tasks.register
+Authorization: Bearer {{token10}}
+Content-Type: application/json
+
+{
+  "phrase": "while"
+}
+
+### 11
+POST http://localhost:9999/tasks.register
+Authorization: Bearer {{token11}}
+Content-Type: application/json
+
+{
+  "phrase": "License"
+}
+
+### 12
+POST http://localhost:9999/tasks.register
+Authorization: Bearer {{token12}}
+Content-Type: application/json
+
+{
+  "phrase": "IPv6"
+}

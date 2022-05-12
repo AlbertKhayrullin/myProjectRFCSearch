@@ -1,0 +1,151 @@
+### register users
+POST http://localhost:9999/users.register
+Content-Type: application/json
+
+{
+  "login": "user2",
+  "password": "secret2"
+}
+
+> {%
+client.global.set('token2', response.body.token);
+%}
+
+
+####
+POST http://localhost:9999/users.register
+Content-Type: application/json
+
+{
+  "login": "user3",
+  "password": "secret3"
+}
+
+> {%
+client.global.set('token3', response.body.token);
+%}
+
+
+###
+POST http://localhost:9999/users.register
+Content-Type: application/json
+
+{
+  "login": "user4",
+  "password": "secret4"
+}
+
+> {%
+client.global.set('token4', response.body.token);
+%}
+
+
+###
+POST http://localhost:9999/users.register
+Content-Type: application/json
+
+{
+  "login": "user5",
+  "password": "secret5"
+}
+
+> {%
+client.global.set('token5', response.body.token);
+%}
+
+
+###
+POST http://localhost:9999/users.register
+Content-Type: application/json
+
+{
+  "login": "user6",
+  "password": "secret6"
+}
+
+> {%
+client.global.set('token6', response.body.token);
+%}
+
+
+###
+POST http://localhost:9999/users.register
+Content-Type: application/json
+
+{
+  "login": "user7",
+  "password": "secret7"
+}
+
+> {%
+client.global.set('token7', response.body.token);
+%}
+
+###
+POST http://localhost:9999/users.register
+Content-Type: application/json
+
+{
+  "login": "user8",
+  "password": "secret8"
+}
+
+> {%
+client.global.set('token8', response.body.token);
+%}
+
+
+###
+POST http://localhost:9999/users.register
+Content-Type: application/json
+
+{
+  "login": "user9",
+  "password": "secret9"
+}
+
+> {%
+client.global.set('token9', response.body.token);
+%}
+
+
+###
+POST http://localhost:9999/users.register
+Content-Type: application/json
+
+{
+  "login": "user10",
+  "password": "secret10"
+}
+
+> {%
+client.global.set('token10', response.body.token);
+%}
+
+
+###
+POST http://localhost:9999/users.register
+Content-Type: application/json
+
+{
+  "login": "user11",
+  "password": "secret11"
+}
+
+> {%
+client.global.set('token11', response.body.token);
+%}
+
+
+###
+POST http://localhost:9999/users.register
+Content-Type: application/json
+
+{
+  "login": "user12",
+  "password": "secret12"
+}
+
+> {%
+client.global.set('token12', response.body.token);
+%}

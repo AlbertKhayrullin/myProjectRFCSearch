@@ -1,0 +1,49 @@
+### register user
+POST http://localhost:9999/users.register
+Content-Type: application/json
+
+{
+  "login": "user1",
+  "password": "secret1"
+}
+
+> {%
+client.global.set('token1', response.body.token);
+%}
+
+### register tasks
+POST http://localhost:9999/tasks.register
+Authorization: Bearer {{token1}}
+Content-Type: application/json
+
+{
+  "phrase": "security"
+}
+
+###  Get information task (by Bearer)
+GET http://localhost:9999/tasks.findMyTasks
+Authorization: Bearer {{token11}}
+
+###  Get information results (by Bearer)
+GET http://localhost:9999/results.getMyResult
+Authorization: Bearer {{token11}}
+
+
+###  get information tasks (by Basic)
+GET http://localhost:9999/tasks.findMyTasks
+Authorization: Basic user10 secret10
+
+###  get information results (by Basic)
+GET http://localhost:9999/results.getMyResult
+Authorization: Basic user10 secret10
+
+
+
+### get information (anonimous)
+GET http://localhost:9999/tasks.findMyDoneTasks
+
+
+
+
+
+
